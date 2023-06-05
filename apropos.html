@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=0.25"/>
+    <meta name="viewport" content="width=device-width, maximum-scale=5.0"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <link rel="stylesheet" href="styleChrono.css">
+    <title>À propos</title>
+</head>
+<body>
+<header>
+    <center><p>À propos</p></center>
+    <ul class="menu">
+        <li>
+            <a href="index.html" class="actif">Accueil</a>
+        </li>
+        <li>
+          <a href="classement.php">Classement</a>
+        </li>
+        <li>
+          <a href="pilotes.html">Pilotes</a>
+        </li>
+    </ul>
+</header>
+
+<script>
+    function showContent(){
+    document.querySelector('.loader-container').classList.add('hidden');
+    } 
+    setTimeout(showContent, 500);
+</script>
+<center>
+  <div class="text">
+    <h2>
+        Projet de Terminal STI2D à St Louis en option SIN
+    </h2><br><br>
+    <a href="https://www.stlouis26.eu/">Ensemble scolaire St Louis</a><br><br>
+    <h3>Remerciments</h3>
+    <h4>Hugo : Conception delphi</h4>
+    <h4>Aurélien : Conception application mobile et éléctronique</h4>
+    <h4>Raphaël : Conception application mobile</h4>
+    <h4>Aubin : Conception delphi et site web</h4>
+    <h4>Olivier Gilles : Professeur de spé SIN à St Louis</h4>
+    <h4>Cyprien Fontaine : Professeur de spé 2I2D à St Louis</h4><br><br><br>
+
+    <h3>Contexte du projet :</h3>
+    <h4>Nous faisons ce projet afin de répondre à un besoin exprimé par les organisateurs de rallye locaux. Leurs besoins sont les suivants : Incrémenter un site web à partir des temps effectués par les pilotes.</h4><br>
+    <h3>Proposition :</h3>
+    <h4>Notre proposition, afin de répondre à la problématique ci-dessus, se constitue de plusieurs points. Tout d'abord récupérer les temps des pilotes grâce à des boîtiers cachés sur le bord de la route qui envoie un signal infrarouge en continue indiquant le numéro de balises au récepteur placés dans les voitures de courses. Ce boîtier reçoit le signal infrarouge et l’envoie au téléphone du pilote en Bluetooth©. Le téléphone du conducteur contient une application qui va automatiquement envoyer, avec l’horodatage, les informations de passage de bornes avec sa puce G.S.M.© via un S.M.S. au PC-CONTROL. La position des bornes devra être donnée à l’application du PC-CONTROL pour interpréter la position de celles-ci. Le PC les recevra grâce à un module G.S.M.© vers USB et interprétera les informations avec une application qui classe les données reçues et les envoient sur un serveur FTP afin d’alimenter la page HTML.
+
+        Pour récapituler : L’organisateur rentre au préalable le numéro de la SIM qu’il a installé le PC-CONTROLE via une application, ensuite ils installent les balises infrarouges sur le bord de la route. Les pilotes vont scanner un QR code au début de l’évènement afin de télécharger l’application. Les voitures passent aux points de contrôle. Les informations sont recueillies et envoyées avec le téléphone du pilote au PC-CONTROL, lui-même classe et envoie les données au serveur FTP. Afin de voir le classement en temps réel sur un site web.
+    </h4>
+  </div>  
+</center>
+</body>
+</html>

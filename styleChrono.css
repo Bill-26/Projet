@@ -1,0 +1,751 @@
+.text {
+   color: white;
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   font-weight: 75;
+   font-size: 3ch;
+   margin-top: 0%;
+   background-color: rgb(31, 83, 122);
+   padding: 20px;
+   padding-top: 10%;
+   margin-top: auto;
+   
+}
+.pp {
+   color: white;
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   font-weight: 75;
+   font-size: 3ch;
+   margin-top: 0%;
+   padding: 20px;
+   padding-top: 10%;
+   margin-top: auto;
+   
+}
+
+
+body{
+   
+   align-items: center;
+   justify-content: center;
+   background: #06283D;
+
+  }
+header {
+   background-color: #5b71ee;
+   padding-top: 20px;
+   height: auto;
+   width: 100%;
+   top: 0px;
+   position: absolute;
+}
+
+ .description {
+   font-size: 18px;
+ }
+.player {
+   position: fixed;
+   top: 100%;
+}
+
+p {
+   color: white;
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   font-weight: 500;
+   font-size: 7ch;
+   margin-top: 0%;
+   padding-bottom: 0%;
+}
+
+.pilote3{
+border-radius: 3%;} 
+
+.context ul {
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   color: white;
+   font-weight: 500;
+   font-size: 4ch;
+   margin-top: 0%;
+}
+
+.context h3 {
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   color: white;
+   font-weight: 400;
+   font-size: 2.5ch;
+   margin-top: 0%;
+}
+
+.context {
+   background-color: midnightblue;
+   padding: 30px;
+}
+
+.text a {
+   color: white;
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+.text h4 {
+   color: white;
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   font-weight: 100;
+   font-size: 2ch;
+   margin-top: 0%;
+}
+
+.menu {
+   display: flex;
+   padding: 0;
+   padding-top: 0%;
+   padding: 10px;
+   justify-content: space-around;
+}
+
+.menu li {
+   list-style-type: none;
+   padding-top: 0px;
+}
+
+.menu a {
+   display: block;
+   min-width: 220px;
+   margin: 0rem;
+   padding: 0.9rem 0;
+   text-align: center;
+   background-color: #5b71ee;
+   color: #fff;
+   text-decoration: none;
+   border: 1px solid #fff;
+   border-radius: 4px;
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   transition: all 1s;
+}
+
+.menu a.actif {
+   background-color: #5b71ee;
+   color: #ffffff;
+   border-color: #ffffff;
+}
+
+.menu a:hover,.menu a:hover.actif {
+   background-color: #1f3ce3;
+   color: #ffffff;
+   border-color: #ffffff;
+}
+
+.dropdown:hover.dropbtn {
+   background-color: grey;
+}
+
+.image-container {
+   height: 0;
+}
+table {
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   border-collapse: collapse;
+   width: auto;
+   box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+   font-family: "Helvetica Neue", "Arial",  sans-serif;
+   font-weight: 600;
+   border:1px solid #ddd;
+   overflow-y: auto; /* Ajoute une barre de défilement verticale */
+
+ }
+ .tab{
+   overflow-y: auto; /* Ajoute une barre de défilement verticale */
+   padding-top: 5%;
+   padding-bottom: 5%;
+ }
+ .table-wrapper {
+   max-height: 300px; /* Hauteur maximale du tableau déroulant */
+   overflow-y: auto; /* Ajoute une barre de défilement verticale si nécessaire */
+ }
+
+/* Tableau de classement */
+.class-text {
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   font-weight: 600;
+   font-size: 3ch;
+   color: #ffffff;
+   padding-bottom: 5%;
+   text-align: center;
+   margin-bottom: 0px; 
+}
+
+
+thead tr{
+   background-color: midnightblue;
+
+ }
+
+ tbody tr{
+   text-align: center;
+ }
+
+ td, th{
+   padding: 15px 20px ;
+ }
+
+ tbody tr{
+   border: 1px solid #ddd;
+ }
+
+ tbody td:nth-child(even){
+   background-color: #f3f3f3cb;
+ }
+
+ tbody td:nth-child(odd){
+   background-color: white;
+ }
+
+ tbody tr:last-of-type{
+   border-bottom: 2px solid midnightblue;
+ }
+ 
+.download{
+   background: #5b71ee;
+   border: 0px;
+   border-radius: 64.5px;
+   cursor: pointer;
+}
+.download h3{
+   color: white;
+}
+.csvButton{
+                     
+   background: #5b71ee;
+   border: 0px;
+   border-radius: 64.5px;
+   cursor: pointer;
+   font-size: large;
+   color: white;
+}
+.temps{
+                     
+   background: #5b71ee;
+   border: 0px;
+   border-radius: 64.5px;
+   cursor: pointer;
+   color: white;
+   padding: 1.5%;
+   position: absolute;
+   right: 2%;
+   font-weight:600; 
+   font-size: large;
+}
+.custom-content {
+   color: white;
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   font-weight:600; 
+   font-size: large;
+  padding: 1.5%;
+
+}
+
+.PM_button button{
+ 
+   border: 0px;
+   border-radius: 20px;
+   cursor: pointer;
+   background-color: #06d6a0;
+   font-size: medium;
+   margin: 1%;
+   padding-right: 2%;
+   padding-left: 2%;
+}
+.PM_button h3{
+   color: white;
+}
+.général{
+
+   background-color: #45C4B0;
+  
+}
+.csvButton h3{
+   color: white;
+}
+
+
+.loader-container {
+  background-color: rgba(255, 255, 255, 1); /* Couleur de fond blanc */
+  height: 50%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 50%;
+  z-index: 999;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.loader-container.hidden {
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(255, 255, 255, 0); /* Couleur de fond transparent */
+}
+/*/////////
+METEO
+*/
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 105px;
+    background: #fff;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.6s ease-out;
+}
+
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box input{
+    color: #06283D;
+    width: 80%;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 32px;
+}
+
+.search-box input::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+    color: #06283D;
+    text-transform: capitalize;
+}
+
+.search-box button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: #06283D;
+    background: #dff6ff;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: 0.4s ease;
+}
+
+.search-box button:hover{
+    color: #fff;
+    background: #06283D;
+}
+
+.search-box i{
+    position: absolute;
+    color: #06283D;
+    font-size: 28px;
+}
+
+.weather-box{
+    text-align: center;
+}
+
+.weather-box img{
+    width: 60%;
+    margin-top: 30px;
+}
+
+.weather-box.temperature{
+    position: relative;
+    color: #06283D;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: -16px;
+}
+
+.weather-box.temperature span{
+    position: absolute;
+    margin-left: 4px;
+    font-size: 1.5rem;
+}
+
+.weather-box.description{
+    color: #06283D;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.weather-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.weather-details.humidity,.weather-details.wind{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+}
+
+.weather-details.humidity{
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+.weather-details.wind{
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+.weather-details i{
+    color: #06283D;
+    font-size: 26px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.weather-details span{
+    color: #06283D;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.weather-details p{
+    color: #06283D;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.not-found{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    scale: 0;
+    opacity: 0;
+    display: none;
+}
+
+.not-found img{
+    width: 70%;
+}
+
+.not-found p{
+    color: #06283D;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.weather-box,.weather-details{
+    scale: 0;
+    opacity: 0;
+}
+
+.fadeIn{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+/*////////
+media screen 
+*/
+
+@keyframes image-container {
+   0% {
+      left: 0%;
+      top: 0%;
+   }
+   100% {
+      left: 100%;
+      top: 100%;
+   }
+}
+@media screen and (max-width: 600px) {
+   /* Styles pour les écrans de petite taille */
+   .text {
+      font-size: 2ch;
+      padding: 2%;
+      padding-top: 95%;
+   }
+   .menu {
+      display: block;
+      size:smaller;
+   }
+   .menu li {
+      margin-bottom: 5px;
+   }
+   .context {
+      padding: 20px;
+   }
+   .class-text {
+      font-size: 3ch;
+      padding-top: 115%;
+      padding-bottom: 10%;
+   }
+   tbody td, tbody th {
+      padding: 10px 15px;
+   }
+   .download {
+      right: 20px;
+      top: 20px;
+      width: 60px;
+      height: 60px;
+      font-size: medium;
+      margin-top: 30%;
+   }
+   .csvButton{
+      width: 60px;
+      height: 60px;
+      font-size: medium;
+      margin-top: 30%;
+   }
+   .header{
+      font-size:20%;
+   }
+   table {
+      font-size: medium;
+      overflow-y: auto;
+   }
+   .header{
+      font-size: small;
+      width:100%;
+   }
+   .p{
+      margin-bottom: 1px;
+      font-size: 5ch;
+      font-weight: 300;
+   }
+   .tab{
+      padding-top:25%;
+   }
+   .temps{
+      margin-top: 30%;      
+   }
+   
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+   /* Styles pour les écrans de taille moyenne */
+   .text {
+      font-size: 4ch;
+      padding: 4%;
+      padding-top: 45%;
+   }
+   .menu {
+      display: block;
+      size: medium;
+   }
+   .menu li {
+      margin-bottom: 4%;
+   }
+   .context {
+      padding: 5%;
+   }
+   .class-text {
+      font-size: 3ch;
+      padding-top: 65%;
+      padding-bottom: 25%;
+   }
+   tbody td, tbody th {
+      padding: 12px 18px;
+   }
+   .download {
+      right: 50px;
+      top: 50px;
+      width: 70px;
+      height: 70px;
+      font-size: large;
+   }
+   .download h3 {
+      /* Ajoutez ici vos styles spécifiques pour les écrans de taille moyenne */
+   }
+   .csvButton {
+      width: 70px;
+      height: 70px;
+      font-size: large;
+   }
+   table {
+      font-size: medium;
+   }
+   .header {
+      font-size: medium;
+   }
+   .p {
+      padding-bottom: 15%;
+   }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+   /* Nouvelle règle pour les écrans entre 1001px et 1300px */
+   .class-text {
+      font-size: 3ch;
+      padding-top: 75%;
+      padding-bottom: 20%;
+   }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1399px) {
+   /* Styles pour les écrans de taille moyenne */
+   .text {
+      font-size: 4ch;
+      padding: 30px;
+      padding-top: 45%;
+   }
+   .menu {
+      display: block;
+      size: medium;
+   }
+   .menu li {
+      margin-bottom: 15px;
+   }
+   .context {
+      padding: 25px;
+   }
+   .class-text {
+      font-size: 3ch;
+      padding-top: 55%;
+      padding-bottom: 15%;
+   }
+   tbody td, tbody th {
+      padding: 12px 18px;
+   }
+   .download {
+      right: 50px;
+      top: 50px;
+      width: 70px;
+      height: 70px;
+      font-size: large;
+   }
+   .download h3 {
+      /* Ajoutez ici vos styles spécifiques pour les écrans de taille moyenne */
+   }
+   .csvButton {
+      width: 70px;
+      height: 70px;
+      font-size: large;
+   }
+   table {
+      font-size: medium;
+   }
+   .header {
+      font-size: medium;
+   }
+   .p {
+      padding-bottom: 15%;
+   }
+}
+
+/* Styles pour les grands écrans */
+@media screen and (min-width: 1400px) and (max-width: 2500px) {
+   .text {
+      font-size: 4ch;
+      padding: 40px;
+      padding-top: 25%;
+   }
+   .menu {
+      display: flex;
+      size: large;
+   }
+   .class-text {
+      font-size: 3ch;
+      padding-top: 10%;
+   }
+   .menu li {
+      margin-bottom: 0;
+   }
+   .context {
+      padding: 30px;
+   }
+   .class-text {
+      font-size: 4ch;
+      padding-top: 15%;
+   }
+   .download {
+      right: 100px;
+      top: 500px;
+      width: 80px;
+      height: 80px;
+      font-size: large;
+   }
+   .download h3 {
+      /* Ajoutez ici vos styles spécifiques pour les grands écrans */
+   }
+   .csvButton {
+      width: 80px;
+      height: 80px;
+      font-size: large;
+   }
+   table {
+      font-size: large;
+   }
+   .header {
+      font-size: large;
+   }
+   .tab {
+      padding-top: 0%;
+   }
+}
+
+
+
+@media screen and (min-width: 2500px) {
+   .text {
+      font-size: 4ch;
+      padding: 30px;
+      padding-top: 45%;
+   }
+   .menu {
+      display: block;
+      size: medium;
+   }
+   .menu li {
+      margin-bottom: 15px;
+   }
+   .context {
+      padding: 25px;
+   }
+   .class-text {
+      font-size: 3ch;
+      padding-top: 55%;
+      padding-bottom: 15%;
+   }
+   tbody td, tbody th {
+      padding: 12px 18px;
+   }
+   .download {
+      right: 50px;
+      top: 50px;
+      width: 70px;
+      height: 70px;
+      font-size: large;
+   }
+   .download h3 {
+      /* Ajoutez ici vos styles spécifiques pour les écrans de taille moyenne */
+   }
+   .csvButton {
+      width: 70px;
+      height: 70px;
+      font-size: large;
+   }
+   table {
+      font-size: medium;
+   }
+   .header {
+      font-size: medium;
+   }
+   .p {
+      padding-bottom: 15%;
+   }
+}
+
+
